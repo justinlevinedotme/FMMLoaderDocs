@@ -2,7 +2,6 @@ import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
-import LocaleToggle from '@/widgets/locale-toggle'
 import ThemeToggle from '@/widgets/theme-toggle'
 
 const UnderlineLink = ({
@@ -74,8 +73,6 @@ export function CustomFooter() {
         />
         <div className="flex justify-center h-5 items-center space-x-2 text-sm">
           <ThemeToggle />
-          <Separator orientation="vertical" />
-          <LocaleToggle />
         </div>
 
       </div>

@@ -6,6 +6,8 @@ This project provides two approaches for internationalization:
 1. Nextra's built-in folder structure internationalization
 2. Custom i18n implementation for components and client-side content
 
+The starter currently ships with English only; add a new locale by mirroring the patterns below.
+
 ## Nextra's Built-in Internationalization Support
 
 Nextra supports multilingual content through folder structure. In the project root directory, you can create folders for different languages, such as:
@@ -18,11 +20,7 @@ Nextra supports multilingual content through folder structure. In the project ro
         <FileTree.File name="index.mdx" />
         <FileTree.File name="introduction.mdx" />
       </FileTree.Folder>
-      <FileTree.Folder name="zh" defaultOpen>
-        <FileTree.File name="_meta.tsx" active />
-        <FileTree.File name="index.mdx" />
-        <FileTree.File name="introduction.mdx" />
-      </FileTree.Folder>
+      <FileTree.Folder name="fr" comment="Add more locales as needed" />
     </FileTree.Folder>
   </FileTree.Folder>
 </FileTree>
@@ -63,7 +61,7 @@ For components and client-side content, we've implemented a type-safe internatio
     <FileTree.Folder name="i18n" defaultOpen>
       <FileTree.File name="index.ts" comment="Core functionality and type definitions" />
       <FileTree.File name="en.ts" comment="English JSON language pack" />
-      <FileTree.File name="zh.ts" comment="Chinese JSON language pack" />
+      <FileTree.File name="new-locale.ts" comment="Add files per locale" />
     </FileTree.Folder>
     <FileTree.Folder name="hooks" defaultOpen>
       <FileTree.File name="useLocale.ts" comment="Pre-packaged common hooks" />
@@ -119,7 +117,7 @@ function MyComponent() {
 
 #### 2. Dynamic Language Switching
 
-Switch languages via URL paths (e.g., [`/en/introduction`](/en/introduction) and [`/zh/introduction`](/zh/introduction)). The current language is automatically obtained from the URL parameter.
+Routing derives the locale from the first URL segment (e.g., `/en/introduction`). To add another locale, extend `src/i18n`, update `i18nConfig`, register it in `src/app/_dictionaries/get-dictionary.ts`, and add a matching content folder under `src/content`.
 
 ## Type Safety
 
