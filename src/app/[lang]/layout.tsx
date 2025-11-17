@@ -9,7 +9,6 @@ import { Banner, Head, Search } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import { CustomFooter } from '@/components/CustomFooter'
 import { useServerLocale } from '@/hooks'
-import LocaleToggle from '@/widgets/locale-toggle'
 import ThemeToggle from '@/widgets/theme-toggle'
 
 import { getDictionary, getDirection } from '../_dictionaries/get-dictionary'
@@ -58,7 +57,6 @@ const CustomNavbar = async ({ lang }: I18nLangAsyncProps) => {
       projectLink={repo}
     >
       <>
-        <LocaleToggle className="max-md:hidden" />
         <ThemeToggle className="max-md:hidden" />
       </>
 
@@ -160,7 +158,6 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
             )}
             i18n={[
               { locale: 'en', name: 'English' },
-              { locale: 'zh', name: '简体中文' },
             ]}
             toc={{
               backToTop: t('backToTop'),

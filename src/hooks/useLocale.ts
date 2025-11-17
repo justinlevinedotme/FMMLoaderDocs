@@ -1,11 +1,11 @@
 'use client'
 
 import type { AllLocales, I18nLangKeys, LocaleKeys, PathValue } from '@/i18n'
-import { useParams } from 'next/navigation' // 改用 next/navigation
+import { useParams } from 'next/navigation' // Uses next/navigation params
 import { useCallback } from 'react'
 import { getNestedValue, i18nConfig, interpolateString } from '@/i18n'
 
-// 类型获取给定键的本地化值的类型
+// Derive localized value type for a given key
 type LocalizedValue<T, K extends LocaleKeys> = PathValue<T, K> extends string
   ? string
   : PathValue<T, K>
@@ -13,7 +13,7 @@ type LocalizedValue<T, K extends LocaleKeys> = PathValue<T, K> extends string
 export const useLocale = () => {
   const params = useParams()
 
-  // 从 URL 参数中获取当前语言
+  // Infer locale from the URL param
   const currentLocale = (
     (params?.lang as I18nLangKeys)
     || 'en'
