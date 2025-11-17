@@ -6,31 +6,31 @@
 
 # Nextjs Nextra Starter
 
-中文 | [English](README-en.md)
+English | [中文](README.md)
 
 [![Deploy](https://img.shields.io/badge/passing-black?style=flat&logo=Netlify&label=Netlify&color=3bb92c&labelColor=black)](https://github.com/pdsuwwz/nextjs-nextra-starter/deployments)
 [![GitHub Workflow Status (branch)](https://img.shields.io/badge/passing-black?style=flat&label=build&color=3bb92c)](https://github.com/pdsuwwz/nextjs-nextra-starter/deployments/Production)
 [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/pdsuwwz)
 [![License](https://img.shields.io/github/license/pdsuwwz/nextjs-nextra-starter?color=466fe8)](https://github.com/pdsuwwz/nextjs-nextra-starter/blob/main/LICENSE)
 
-⚡️ 快速模板 Starter Template - React v19 + Next.js + Nextra (v4) + TypeScript + TailwindCSS (v4) + Shadcn UI
+⚡️ Fast Template Starter - React v19 + Next.js + Nextra (v4) + TypeScript + TailwindCSS (v4) + Shadcn UI
 
-- [🚀 Live Demo 在线体验](https://nextjs-nextra.netlify.app/zh)
-- [✨ 备用地址1](https://nextjs-nextra-starter-green.vercel.app/zh)
-- [✨ 备用地址2](https://nextra.likemashang.com/zh)
+- [🚀 Live Demo](https://nextjs-nextra.netlify.app/en)
+- [✨ Alternative address 1](https://nextjs-nextra-starter-green.vercel.app/en)
+- [✨ Alternative address 2](https://nextra.likemashang.com/en)
 
-## 🛠️ 项目维护承诺
+## 🛠️ Maintenance Commitment
 
 <div align="center">
 
 <table>
   <tr>
-    <td><strong>🔄 持续更新</strong><br/>不定期更新依赖和功能</td>
-    <td><strong>🐛 快速响应</strong><br/>平均 2 小时内回复 Issue</td>
+    <td><strong>🔄 Continuous update</strong><br/>Dependency and features are updated irregularly</td>
+    <td><strong>🐛 Fast Response</strong><br/>Reply within 2 hours on average Issue</td>
   </tr>
   <tr>
-    <td><strong>💎 精心打磨</strong><br/>花费 100+ 小时完善模板细节</td>
-    <td><strong>🛡️ 稳定可靠</strong><br/>确保每个功能都充分测试</td>
+    <td><strong>💎 Elaboration</strong><br/>Spend 100+ hours to perfect template details</td>
+    <td><strong>🛡️ Stable and Reliable</strong><br/>Ensure that each function is fully tested</td>
   </tr>
 </table>
 
@@ -40,34 +40,34 @@
 
 <img src="https://media.giphy.com/media/a5viI92PAF89q/giphy.gif" width="400"/>
 
-💝 **如果你感受到了这份用心，请用 Star ⭐ 给予支持**
+💝 **If you appreciate this effort, please show your support with a ⭐ Star.**
 
 </div>
 
-## 🚀 更新说明
+## 🚀 What's New
 
-- **Tailwind CSS v4 升级**：全面升级至 Tailwind CSS v4，优化性能并引入新特性。
-- **Nextra v4 重构**：升级至 Nextra v4，提升文档生成效率和开发体验。
+- **Tailwind CSS v4 Upgrade**: Fully upgraded to Tailwind CSS v4, optimizing performance and introducing new features.
+- **Nextra v4 Refactoring**: Upgraded to Nextra v4, enhancing document generation efficiency and development experience.
 
-👉 [点击查看详细升级说明](https://nextjs-nextra.netlify.app/zh/upgrade)
+👉 [Click to view detailed upgrade notes](https://nextjs-nextra.netlify.app/en/upgrade)
 
 ## 🎉 Features
 
-- ⚡️ **Next.js + TypeScript**: 高效的 React 框架和类型安全支持
-- 🎨 **Tailwind CSS (v4)**: 原子化 CSS, 快速构建自定义、响应式界面 UI
-- 🧩 **Shadcn UI**: 高度可定制的 UI 组件集合，无需安装额外依赖
-- 📚 **Nextra v4**: 基于 Next.js 的静态站点生成器，专为文档而优化
-- 🛠️ **ESLint**: 统一编码风格和最佳实践
-- ⛅ **轻量化设计**: 精简项目设置，专注于内容编写
+- ⚡️ **Next.js + TypeScript**: Efficient React framework with type safety support
+- 🎨 **Tailwind CSS (v4)**: Atomic CSS for quickly building custom, responsive UI interfaces
+- 🧩 **Shadcn UI**: Highly customizable UI component collection with no additional dependencies
+- 📚 **Nextra v4**: Next.js-based static site generator optimized for documentation
+- 🛠️ **ESLint**: Unified coding style and best practices
+- ⛅ **Lightweight Design**: Streamlined project setup focused on content creation
 
-## 前置条件
+## Prerequisites
 
 - React 19.x
 - Node >= 20.x
 - Pnpm 9.x
-- **VS Code 插件 `dbaeumer.vscode-eslint` >= v3.0.5 (pre-release)**
+- **VS Code plugin `dbaeumer.vscode-eslint` >= v3.0.5 (pre-release)**
 
-## 运行效果
+## Preview
 
 ![image](https://github.com/user-attachments/assets/f732afa6-5fce-4e4d-af1c-acadd1bf50e7)
 
@@ -79,55 +79,55 @@
 
 ![image](https://github.com/user-attachments/assets/a0a07f3f-a457-4521-a45f-4c0f970044f6)
 
-## 安装和运行
+## Installation and Running
 
-- 安装依赖
+- Install dependencies
 
 ```bash
 pnpm i
 ```
 
-- 本地开发
+- Local development
 
 ```bash
 pnpm dev
 ```
 
-接着用浏览器打开 http://localhost:8000 即可访问服务
+Then open http://localhost:8000 in your browser to access the service
 
-🎉 **成功运行了？** 如果你喜欢这个模板的简洁配置，别忘了鼓励一下：
+🎉 **Successfully running?** If you like the clean setup of this template, don’t forget to show some support!
 
 [![Star this repo](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=flat&logo=github)](https://github.com/pdsuwwz/nextjs-nextra-starter)
 
-## 使用 Shadcn UI 组件
+## Using Shadcn UI Components
 
-本项目已集成 [Shadcn UI](https://ui.shadcn.com), 按照以下步骤安装/编辑组件并使用:
+This project has integrated [Shadcn UI](https://ui.shadcn.com). Follow these steps to install/edit components and use them:
 
-### Shadcn 结构初始化
+### Shadcn Structure Initialization
 
-首次执行 `pnpm dlx shadcn@latest init` 命令初始化 `Shadcn UI` 基本项目结构（如果尚未初始化）
+Execute `pnpm dlx shadcn@latest init` command to initialize the basic project structure for `Shadcn UI` (if not already initialized)
 
-> [!IMPORTANT]
+💡 Note
 
-> 该初始化命令用于创建 `Shadcn UI` 的基本项目结构
+> This initialization command is used to create the basic project structure for `Shadcn UI`
 >
-> **本项目已完成初始化，无需再次运行此命令**
+> **This project has already been initialized, so there's no need to run this command again**
 
-### 组件安装
+### Component Installation
 
-1. 使用 `Shadcn CLI` 添加组件:
+1. Use `Shadcn CLI` to add components:
 
    ```bash
-   pnpm dlx shadcn@latest add <组件名>
+   pnpm dlx shadcn@latest add <component-name>
    ```
 
-   如添加 `<Alert />` 组件，执行以下命令即可，[详见文档](https://ui.shadcn.com/docs/components/alert#installation)
+   For example, to add the `<Alert />` component, execute the following command, [see documentation](https://ui.shadcn.com/docs/components/alert#installation)
 
    ```bash
    pnpm dlx shadcn@latest add alert
    ```
 
-2. 使用组件
+2. Using components
 
 ```tsx
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
@@ -144,57 +144,68 @@ export default function Home() {
 }
 ```
 
-3. 自定义组件样式（可选）
+3. Customizing component styles (optional)
 
-`Shadcn UI` 组件通常已提供了流行的默认样式和功能，能满足大多数需求，若确实需要进行自定义定制，可编辑相应的组件文件，如：
+`Shadcn UI` components typically provide popular default styles and functionality that meet most needs. If you truly need to customize, you can edit the respective component files, such as:
 
-打开 [`src/components/ui/alert.tsx`](src/components/ui/alert.tsx) 文件来修改 `Alert` 组件的样式
+Open [`src/components/ui/alert.tsx`](src/components/ui/alert.tsx) to modify the styles of the `Alert` component
 
-> 注意：在大多数情况下，`Shadcn UI` 提供的默认样式已经足够满足需求，无需进行额外修改
+> Tips: In most cases, the default styles provided by `Shadcn UI` are sufficient to meet requirements without additional modifications
 
-## 🐱 说句心里话
+## 🐱 A Word from the Heart
 
 <div align="center">
 
-如果你看到这里还没有点 Star, 那我只能说...
+If you've made it this far and still haven't starred the repo, then all I can say is...
 
 <img src="https://media.giphy.com/media/l0HlKrB02QY0f1mbm/giphy.gif" width="500"/>
 
-**求求了，给个 Star 吧！** 🥺👉👈
+**Pretty please, drop a ⭐ Star!** 🥺👉👈
 
-我的 Star 数量还不如我的 Bug 数量多 😭
+Right now, my bug count is still higher than my star count 😭
 
 <a href="https://github.com/pdsuwwz/nextjs-nextra-starter">
-<img src="https://img.shields.io/badge/%E8%89%AF%E5%BF%83%E5%8F%91%E7%8E%B0-%E8%B5%8F%E4%B8%AAStar%20%E2%AD%90%EF%B8%8F%EF%B8%8F-orange?style=for-the-badge&logo=github&logoColor=white" alt="给个Star"/>
+<img src="https://img.shields.io/badge/Discovered%20with%20care-Drop%20a%20Star%20%E2%AD%90-orange?style=for-the-badge&logo=github&logoColor=white" alt="Give a Star"/>
 </a>
 
 </div>
 
-## 🌟 相关项目
+## 🌟 Related Projects
 
-以下是一些开发者和团队正在使用、参考或受本项目启发的项目：
+Here are some projects that developers and teams are using, referencing, or inspired by this project:
 
-| 项目名                                                              | 简介                                                                                                   |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [ClaudeCode101 中文教程](https://www.claudecode101.com/zh)          | 面向中文用户的 Claude Code AI 编程助手教程网站，汇集官方最佳实践与社区经验，助你高效掌握 AI 编程技能。 |
-| [EdgeOne Saas 模板](https://github.com/TencentEdgeOne/saas-starter) | [腾讯云官方模板：助你快速构建并部署下一款 SaaS 应用](https://saas-starter-docs.edgeone.app/zh)         |
-| [Talking Web3](https://talkingweb3.io/zh)                           | 一个 Web3 项目出圈加速器，致力于打造卓越的Web3项目。                                                   |
-| [面试宝典](https://www.codecrack.cn/zh)                             | 一个免费且深入的八股文网站，帮助开发者提升技术能力并应对面试。                                         |
+| Project Name                                                           | Description                                                                                                                       |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [ClaudeCode101](https://www.claudecode101.com)                         | A Chinese tutorial site for Claude Code, featuring best practices and hands-on guides.                                            |
+| [EdgeOne Saas Starter](https://github.com/TencentEdgeOne/saas-starter) | [The fastest way to create and deploy your SaaS product with EdgeOne and Tencent Cloud](https://saas-starter-docs.edgeone.app/en) |
+| [Talking Web3](https://talkingweb3.io/en)                              | A Web3 project accelerator dedicated to creating outstanding Web3 projects.                                                       |
+| [CodeCrack](https://www.codecrack.cn/en)                               | A free and in-depth interview preparation website helping developers improve their technical skills and prepare for interviews.   |
 
-### 📢 社区贡献
+### 📢 Community Contributions
 
-💡 如果您的项目也在使用或借鉴了本项目，我们诚挚欢迎您：
+💡 If your project is also using or referencing this project, we sincerely welcome you to:
 
-- 通过提交 [Issue](https://github.com/pdsuwwz/nextjs-nextra-starter/issues) 分享您的项目链接
-- 提交 Pull Request (PR) 将您的项目添加到列表中
+- Share your project link by submitting an [Issue](https://github.com/pdsuwwz/nextjs-nextra-starter/issues)
+- Submit a Pull Request (PR) to add your project to the list
 
-## 🚨 免责声明
+## 🚨 Disclaimer
 
-本模板作为技术方案参考提供，使用者需知悉以下风险及义务：
+This template is provided as a technical reference solution. Users must acknowledge the following risks and obligations:
 
-- **技术风险**：依赖框架（Next.js/Nextra/Tailwind CSS等）存在版本迭代风险，第三方组件（如 Shadcn UI）的行为规范以原始仓库为准，环境配置变更可能导致不可预见的构建异常
-- **使用限制**：禁止用于违反开源协议或法律法规的场景，使用者需自行完成代码安全审查及生产环境验证
-- **责任免除**：不承诺技术方案的业务适用性、安全性担保及定制支持，因使用/修改引发的直接或间接后果均由使用者自行承担
+- **Technical Risks**:
+  Dependent frameworks (Next.js/Nextra/Tailwind CSS) carry version iteration risks. Third-party components (e.g. Shadcn UI) follow their original repositories' specifications. Environment configuration changes may cause unforeseen build exceptions
+
+- **Usage Restrictions**:
+  Prohibited for use in scenarios violating open-source licenses or applicable laws/regulations. Users must conduct independent code security audits and production environment validation
+
+- **Liability Exclusion**:
+  No guarantees are provided regarding:
+
+1. Business applicability of technical solutions
+2. Security assurance of dependencies
+3. Official customization support
+
+Users assume full responsibility for any direct/indirect consequences arising from usage or modifications. Continued use constitutes acceptance of these terms
 
 ## License
 
